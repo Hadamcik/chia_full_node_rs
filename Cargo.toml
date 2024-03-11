@@ -6,4 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chia-client = "0.5.1"
+chia-protocol = "0.5.1"
+chia-ssl = "0.2.14"
 tokio = { version = "1.36", features = ["full"] }
+tokio-tungstenite = { version = "0.21.0", features = ["native-tls"] }
+native-tls = "0.2.11"
